@@ -22,7 +22,14 @@ img {
   margin-bottom: 20px;
   font-family: fantasy;
 }
-
+.action-btn {
+  padding: 10px;
+  border: none;
+  background: #b05c31;
+  color: white;
+  border-radius: 20px;
+  font-family: fantasy;
+}
 .animal_cards-wrapper {
   display: flex;
   flex-wrap: wrap;
