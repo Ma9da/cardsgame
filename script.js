@@ -75,5 +75,6 @@ function initiateGame() {
     });
   });
 }
-
+let actionBtn = document.getElementsByClassName("action-btn")[0];
+actionBtn.addEventListener("click", () => location.reload());
 window.onload = initiateGame;
