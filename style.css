@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #f4c99b66;
+}
+img {
+  display: block;
+  width: 100%;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.container h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #b05c31;
+  margin-bottom: 20px;
+  font-family: fantasy;
+}
+
+.animal_cards-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 10px;
+}
+.animal_card {
+  width: 24%;
+  margin: 10px 0;
+}
+.animal_img {
+  margin: 10px 0;
+  height: 100%;
+}
+.muted {
+  width: 100%;
+  position: relative;
+  background-color: black;
+}
